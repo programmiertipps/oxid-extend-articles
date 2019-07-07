@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OX>
+    <OXMENU id="NAVIGATION_ESHOPADMIN">
+        <MAINMENU id="mxmanageprod">
+            <SUBMENU id="mxarticles" cl="article" list="article_list">
+                <TAB id="PROTIPPS_TECHNICAL_DETAILS" cl="protippstechnicaldetails" />
+            </SUBMENU>
+        </MAINMENU>
+    </OXMENU>
+</OX>

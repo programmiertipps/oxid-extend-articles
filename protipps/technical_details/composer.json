@@ -1,0 +1,21 @@
+{
+  "name": "protipps/technical_details",
+  "description": "Expand articles with technical details",
+  "type": "oxideshop-module",
+  "keywords": ["oxid", "modules", "eShop"],
+  "homepage": "https://www.programmier-tipps.de/",
+  "version": "1.0.0",
+  "license": [
+    "GPL-3.0-only"
+  ],
+  "extra": {
+    "oxideshop": {
+      "target-directory": "protipps/technical_details"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "ProTipps\\TechnicalDetails\\": "../../../source/modules/protipps/technical_details"
+    }
+  }
+}
