@@ -8,6 +8,10 @@
   "license": [
     "GPL-3.0-only"
   ],
+  "require": {
+    "php": ">=7.1",
+    "oxid-esales/oxideshop-ce": "^v6.1"
+  },
   "extra": {
     "oxideshop": {
       "target-directory": "protipps/technical_details"
