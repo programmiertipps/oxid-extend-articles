@@ -10,7 +10,8 @@
   ],
   "require": {
     "php": ">=7.1",
-    "oxid-esales/oxideshop-ce": "^v6.1"
+    "oxid-esales/oxideshop-ce": "^v6.1",
+	"protipps/technical_details":"dev-master@dev"
   },
   "extra": {
     "oxideshop": {
