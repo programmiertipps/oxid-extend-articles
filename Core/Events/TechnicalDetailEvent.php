@@ -21,7 +21,7 @@ class TechnicalDetailEvent {
           	ADD COLUMN `ptbatterytype` varchar(40) NOT NULL AFTER `ptbatteryquantity`;"
 		);
 		
-		$oMetaData = oxNew(DbMetaDataHandler::class);
+		$oMetaData = oxNew(\OxidEsales\Eshop\Core\DbMetaDataHandler::class);
         $oMetaData->updateViews();
     }
 
