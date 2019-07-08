@@ -10,8 +10,7 @@
   ],
   "require": {
     "php": ">=7.1",
-    "oxid-esales/oxideshop-ce": "^v6.1",
-	"protipps/technical_details":"dev-master@dev"
+    "oxid-esales/oxideshop-ce": "^v6.1"
   },
   "extra": {
     "oxideshop": {
@@ -22,10 +21,5 @@
     "psr-4": {
       "ProTipps\\TechnicalDetails\\": "../../../source/modules/protipps/technical_details"
     }
-  },
-  "repositories": [ {
-     "type": "vcs",
-     "url": "https://github.com/programmiertipps/oxid-extend-articles" 
   }
-]
 }
