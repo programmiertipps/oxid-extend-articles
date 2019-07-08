@@ -20,14 +20,13 @@ class TechnicalDetailEvent {
           	ADD COLUMN `ptbatteryquantity` varchar(40) NOT NULL AFTER `ptbattery`,
           	ADD COLUMN `ptbatterytype` varchar(40) NOT NULL AFTER `ptbatteryquantity`;"
 		);
+		
+		$oMetaData = oxNew(DbMetaDataHandler::class);
+        $oMetaData->updateViews();
     }
 
     public static function onDeactivate() {
 
     }
 	
-	protected function updateViews() {
-        $oMetaData = oxNew(DbMetaDataHandler::class);
-        $oMetaData->updateViews();
-    }
 }
