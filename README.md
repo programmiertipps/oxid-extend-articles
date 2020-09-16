@@ -14,4 +14,5 @@
 
 Via Composer 
 
+    composer config repositories.programmiertipps composer https://github.com/programmiertipps
     composer require protipps/technical_details
